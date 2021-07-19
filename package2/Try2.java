@@ -11,7 +11,7 @@ class Try2
 
         try
         {
-            int i = arr[4];
+            int i = arr[39];
 
             // this statement will never execute 
             // as exception is raised by above statement 

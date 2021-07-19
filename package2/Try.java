@@ -7,16 +7,19 @@ class Try
 
         // array of size 4. 
         int[] arr = new int[4];
+        byte total;
         try
         {
-            System.out.println("Stratd with  try block");
-            int i = arr[4];
-
-            // this statement will never execute 
-            // as exception is raised by above statement 
-            System.out.println("Inside try block");
+            int c= 6/3;
+            System.out.println("result c is "+c);
+//            System.out.println("Stratd with  try block");
+//            int i = arr[4];
+//
+//            // this statement will never execute
+//            // as exception is raised by above statement
+//            System.out.println("Inside try block");
         }
-        catch(ArrayIndexOutOfBoundsException ex)
+        catch(Exception ex)
         {
             System.out.println("Exception caught in Catch block");
         }

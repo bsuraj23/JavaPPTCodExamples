@@ -1,34 +1,37 @@
 package package2;
 
-import java.io.*;
-import java.util.*;
+
 
 class ArrayEx1 {
     public static void main(String[] args)
     {
+System.out.println("I am a main class  function");
 
-        // Declaring the ArrayList with 
-        // initial size n 
-        ArrayList al
-                = new ArrayList();
+        Sample2 obj = new Sample2();
+      System.out.println(obj.a   );
+     //   System.out.println(obj.b);
+        System.out.println(obj.add(23));
+        System.out.println();
 
-        // Appending new elements at 
-        // the end of the list 
-        for (int i = 1; i <= 5; i++)   //i= 1
-            al.add(i);
 
-        // Printing elements 
-        System.out.println(al);
+            }
+}
+class Sample{
+    //variables
+     byte pin= 90;
+    int  add(int  s){
+        System.out.println("I am add function from  Sample with int  as para ");
+        return s;
+    };
 
-        // Remove element at index 3 
-        al.remove(3);
 
-        // Displaying the ArrayList 
-        // after deletion 
-        System.out.println(al);
+}
+class Sample2 extends Sample{
 
-        // Printing elements one by one 
-        for (int i = 0; i < al.size(); i++)
-            System.out.print(al.get(i) + " ");
-    }
-} 
+    //variables
+    int a=87;
+
+    //function
+
+
+}
